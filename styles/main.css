@@ -26,7 +26,6 @@ a {
 ul li {
     list-style-type: none;
     margin-top: 22px;
-    color: transparent;
 }
 .header {
     position: relative;
@@ -38,7 +37,7 @@ ul li {
     overflow: hidden;
     z-index: 1;
 }
-.logo {
+.logo, .logo2 {
     position: absolute;
     font-weight: 700;
     font-size: 24px;
@@ -204,6 +203,7 @@ p span {
     margin: 0 auto;
     background-image: url(../images/section2_bg.png);
     background-color: black;
+
 }
 .left_but {
     background-color: transparent;
@@ -277,7 +277,7 @@ p span {
 .section3 {
     position: relative;
     top: 1050px;
-    margin: 0 auto;
+    width: 1920px;
     left: 48px;
     background:black;
 }
@@ -315,5 +315,137 @@ p span {
 }
 .block3_image {
     position: absolute;
-    left: 1131.51px;
+    left: 1121.51px;
+}
+.footer {
+    width: 1920px;
+    margin: 0 auto;
+    position: relative;
+    top: 2000px;
+}
+.logo2 {
+    font-weight: 700;
+    font-size: 48px;
+    left: 233.07px;
+}
+.footer_qest {
+    position: absolute;
+    left: 1218px;
+    top: 35px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+}
+.footer_button {
+    position: absolute;
+    background: #FFA343;
+    border-radius: 8px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    color:black;
+    text-align: center;
+    padding: 24px 69px;
+    top: 35px;
+    left: 1450.53px;
+}
+.line, .line2 {
+    position: absolute;
+    top: 180px;
+    left: 220px;
+    width: 1463px;
+    margin: 0 auto;
+    height: 1.38px;
+    background: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.3;   
+}
+.footer_h {
+    position: absolute;
+    left: 229.07px;
+    font-weight: 700;
+    font-size: 36px;
+    top: 200px;
+}
+.footer_input {
+    position: absolute;
+    top: 400px;
+    left: 245px;
+    border: none;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+}
+.input_button {
+    position: absolute;
+    top: 364px;
+    left: 575.17px;
+    background: #FFA343;
+    border-radius: 8px 8px 0px 0px;
+}
+.right_black {
+    background-color: transparent;
+    padding: 24px 28px;
+}
+.services, .about, .help {
+    position: absolute;
+    left: 880.91px;
+    font-weight: 400;
+    font-size: 19px;
+    top: 220px;
+}
+.about {
+    left: 1212.12px;
+}
+.help {
+    left: 1488.09px;
+}
+ul li:first-child {
+    color: #FFD1A0;
+    font-weight: 700;
+    font-size: 20px;
+}
+.line2 {
+    width: 359px;
+    top: 428.5px;
+}
+.add {
+    position: relative;
+    top: 590px;
+}
+.addition1, .addition2 {
+    position: absolute;
+    left: 250.93px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    color:#FFFFFF;
+}
+.addition2 {
+    left: 483.31px;
+}
+.footer_socials {
+    position: absolute;
+    left: 1475px;
+}
+.icons {
+    margin-right: 51.7px;
+    padding-bottom: 120px;
+}
+.copyright {
+    position: absolute;
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+    opacity: 0.5;
+    top: 100px;
+    left: 861px;
+    padding-bottom: 118px;
+ 
 }
